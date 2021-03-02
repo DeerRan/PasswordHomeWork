@@ -4,6 +4,9 @@ Homework for my Bootcamp, mimicking the functionality of a password generator
 # Description
 This repository contains HTML, CSS, and JS files that all work together to create a password generator. 
 
+# Deployable Link
+https://deerran.github.io/PasswordHomeWork/index.html
+
 # index.HTML
 This file contains divs to create the bones of the webpage and also has a form for user input. 
 Based on what boxes the user will check, the password generator will react accordingly.
