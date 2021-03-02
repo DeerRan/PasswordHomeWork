@@ -12,6 +12,10 @@ body,
   padding: 0;
 }
 
+h2 {
+  text-align:center;
+}
+
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -97,7 +101,18 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#criteria {
+  padding: 0;
+  margin: 10px;
+  color: hsl(206, 17%, 28%);
+  font-size: 1.2rem;
+}
+
+.number-input {
+  width: 3rem;
+}
+
+#passwordDisplay {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -116,6 +131,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  word-wrap: break-word;
 }
 
 @media (max-width: 690px) {
@@ -125,7 +141,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #password, #criteria {
     font-size: 1rem;
   }
 }
